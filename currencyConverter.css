@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+}
+
+.main {
+  width: 236px;
+  height: 200px;
+  display: block;
+  margin: auto;
+  margin-top: 200px;
+  background: rgb(230, 201, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(230, 201, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#secondSelect,
+#output {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#convertButton {
+  display: block;
+  margin: auto;
+  color: #e6c900;
+  background-color: black;
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+  border: none;
+}
+
+#convertButton:hover {
+  border: solid 1px black;
+  background-color: #e6c900;
+  color: black;
+  cursor: pointer;
+}
